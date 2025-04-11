@@ -1,0 +1,24 @@
+{
+  "name": "wind-blog-fast",
+  "version": "1.0.0",
+  "description": "Blog API usando Fastify com arquitetura de plugins",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@fastify/autoload": "^5.7.1",
+    "@fastify/cors": "^8.3.0",
+    "@fastify/sensible": "^5.2.0",
+    "@fastify/swagger": "^8.8.0",
+    "@fastify/swagger-ui": "^1.9.3",
+    "fastify": "^4.21.0",
+    "fastify-plugin": "^4.5.1",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
